@@ -9,6 +9,8 @@ public class SingleLinkedListApp {
             ssl.add(i);
         }
         ssl.printNodes();
+        System.out.println(ssl.getKthItemFromLast(3));
+
 
     }
 }
